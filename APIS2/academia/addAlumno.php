@@ -29,6 +29,6 @@ if (!$resultado) {
     $salida = "Valores insertados correctamente: $nombre, $dni";
 }
 
-echo json_($resultado);
+echo json_decode($resultado, true);
 
 ?>
